@@ -1,0 +1,8 @@
+The basic Commands of linux :-
+1.mv:-The primary use of the mv command is to move files, although it can also be used to rename files.
+2.rm:-The rm command is used to delete directories and the contents within them. If you only want to delete the directory — as an alternative to rmdir — use rm -r.
+3.pwd :-It stands for "Print Working Directory" which prints the name of the working directory.
+4.cp :-It is used to copy files.
+5.mkdir :-It is used to create a new directories.
+6.cat:-cat (short for concatenate) is one of the most frequently used commands in Linux. It is used to list the contents of a file on the standard output (sdout). To run this command, type cat followed by the file’s name and its extension. For instance: cat file.txt.
+7.head:-he head command, as the name implies, print the top N number of data of the given input. By default, it prints the first 10 lines of the specified files. If more than one file name is provided then data from each file is preceded by its file name. 
