@@ -1,0 +1,26 @@
+users & groups 
+
+1] Users:-
+The information of user in a system are stored in /etc/passwd file. 
+Users are accounts ,used to login into a system. 
+Each user identified with unique identification number.
+
+2]Groups:-
+ To define a set of privileges like read, write, or execute permission for a given resource that can be shared among the users within the group.
+ A group is a collection of users.
+ Primary Group- - it is the default group that user belongs to - this is generally stored in /etc/passwd file.
+ Secondary Group- - once the user is created with the primary group it can be added to the other groups. - generally stored in /etc/group file.
+ 3]Commonds:-
+adduser: add a user to the system.
+
+userdel: delete a user account and related files.
+
+addgroup: add a group to the system.
+
+delgroup: remove a group from the system.
+
+usermod: modify a user account.
+
+chage: change user password expiry information.
+
+sudo: run one or more commands as another user (typically with superuser permissions).
