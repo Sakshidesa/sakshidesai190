@@ -1,0 +1,19 @@
+Linux partition:-
+Partitioning is a methode to  allows you to divide your hard drive into isolated sections, where each section behaves as its own hard drive. 
+Partitioning is particularly useful if you run multiple operating systems.
+There are lots of powerful tools for creating, removing, and otherwise manipulating disk partitions in Linux.
+
+Steps of linux partition are as follows :-
+
+Step 1: List Partitions
+Before making a partition, list available storage devices and partitions. This action helps identify the storage device you want to partition.
+Step 2: Open Storage Disk
+Open the storage disk that you intend to partition by running the following command:
+                         sudo parted /dev/sdb.
+                         
+Step 3: Make a Partition Table
+Create a partition table before partitioning the disk. A partition table is located at the start of a hard drive and it stores data about the size and location of each partition.
+Step 4: Check Table
+Run the print command to review the partition table. The output displays information about the storage device.
+Step 5: Create Partition
+Let’s make a new 1854MB-partition using the ext4 file system. The assigned disk start shall be 1MB and the disk end is at 1855MB.
