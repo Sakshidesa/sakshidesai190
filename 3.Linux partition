@@ -5,15 +5,13 @@ There are lots of powerful tools for creating, removing, and otherwise manipulat
 
 Steps of linux partition are as follows :-
 
-Step 1: List Partitions
-Before making a partition, list available storage devices and partitions. This action helps identify the storage device you want to partition.
-Step 2: Open Storage Disk
-Open the storage disk that you intend to partition by running the following command:
-                         sudo parted /dev/sdb.
-                         
-Step 3: Make a Partition Table
-Create a partition table before partitioning the disk. A partition table is located at the start of a hard drive and it stores data about the size and location of each partition.
-Step 4: Check Table
-Run the print command to review the partition table. The output displays information about the storage device.
-Step 5: Create Partition
-Let’s make a new 1854MB-partition using the ext4 file system. The assigned disk start shall be 1MB and the disk end is at 1855MB.
+1. List partitions
+2. Label a partition
+3. Use mkpart to make a partition
+4. Let the partition be created/settled
+5. Attach the file system to the partition
+6. Create a mount point directory
+7. Add entry in fstab
+8. Systemctl daemon-reload
+9. Mount the partition on the directory
+10. Reboot
